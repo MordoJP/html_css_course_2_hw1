@@ -1,0 +1,227 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1272px;
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  background-color: #445161;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_info {
+  margin: 25px 0 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 69px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header li {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+header li:before {
+  content: "✔";
+  position: absolute;
+  top: -10;
+  left: 0;
+  color: white;
+}
+
+header a {
+  margin: 27px 51px 34px 0;
+  background-color: white;
+  height: 214px;
+  width: 469px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.about span, .pluses li, .screenshots p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333333;
+}
+
+main h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #445161;
+}
+
+.screenshots h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #445161;
+}
+
+.reviews p {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000000;
+  font-style: italic;
+}
+
+.reviews address {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #989898;
+  font-style: italic;
+}
+
+.level {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #FFFFFF;
+  background-color: #445161;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about section {
+  margin: 45px 0 92px 50px;
+  width: 655px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about figure {
+  margin: 45px 50px 50px 0;
+  width: 430px;
+  height: 245px;
+  background-color: #445161;
+}
+
+.about h2 {
+  margin-bottom: 6px;
+}
+
+.pluses section, .screenshots {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pluses section {
+  background: #F5F5F5;
+}
+
+.pluses h2 {
+  margin-top: 25px;
+  align-self: center;
+}
+
+.pluses_points, .screenshots_expl {
+  width: 1172px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pluses ul {
+  width: 572px;
+}
+
+.pluses_points {
+  margin: 29px 0 15px;
+}
+
+.pluses_points li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 33px;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary {
+  list-style: none;
+}
+
+.pluses details summary:before {
+  content: "+";
+  margin-right: 7px;
+  padding: 0 10px;
+  background-color: #445161;
+  color: #FFFFFF;
+  font-size: 36px;
+}
+
+.pluses details[open] summary:before {
+  content: "-";
+  padding: 0 15px;
+}
+
+.screenshots h2 {
+  margin-top: 25px;
+}
+
+.screenshots_expl {
+  margin: 45px 0 51px;
+}
+
+.scrn {
+  width: 575px;
+}
+
+/*# sourceMappingURL=style.css.map */
