@@ -1,7 +1,8 @@
 $border: 1px solid black;
+$color_style: #445161;
 
 header{
-  background-color: rgba(68, 81, 97, 1);
+  background-color: $color_style;
   display: flex;
   justify-content: space-between;
 }
@@ -50,8 +51,4 @@ header a{
   background-color: rgba(255, 255, 255, 1);
   height: 214px;
   width: 469px;
-}
-
-img{
-
 }

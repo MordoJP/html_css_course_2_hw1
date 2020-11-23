@@ -6,7 +6,16 @@
   color: $text_color;
 }
 
+@mixin image($img_width, $img_height, $img_color){
+  width: $img_width;
+  height: $img_height;
+  background-color: $img_color;
+}
+
 $width_content: 1172px;
+$color_style: #445161;
+$color_lighter: #F5F5F5;
+$width_cont: 576px;
 
 main{
   display: flex;
@@ -37,7 +46,7 @@ main h2{
 
 .level{
   @include font_style((Arial, Helvetica, sans-serif), 24px, 400, 30px, #FFFFFF);
-  background-color: #445161;
+  background-color: $color_style;
 }
 
 .about{
@@ -57,7 +66,7 @@ main h2{
   margin: 45px 50px 50px 0;
   width: 430px;
   height: 245px;
-  background-color: #445161;
+  background-color: $color_style;
 }
 
 .about h2{
@@ -71,8 +80,8 @@ main h2{
   align-items: center;
 }
 
-.pluses section{
-  background: #F5F5F5;
+.pluses section, .reviews{
+  background: $color_lighter;
 }
 
 .pluses h2{
@@ -87,7 +96,7 @@ main h2{
 }
 
 .pluses ul{
-  width: 572px;
+  width: $width_cont;
 }
 
 .pluses_points{
@@ -113,7 +122,7 @@ details > summary {
   content: '+';
   margin-right: 7px;
   padding: 0 10px;
-  background-color: #445161;
+  background-color: $color_style;
   color: #FFFFFF;
   font-size: 36px;
 }
@@ -128,9 +137,85 @@ details > summary {
 }
 
 .screenshots_expl{
-  margin: 45px 0 51px;
+  margin: 45px 0 24px;
 }
 
 .scrn {
-  width: 575px;
+  width: $width_cont;
+  display: flex;
+  margin-bottom: 27px;
+  img{
+    display: block;
+    margin-right: 14px;
+    @include image(202px, 153px, $color_style);
+  }
+}
+
+.scrn_left, .scrn_right{
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews{
+  padding: 25px 50px 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews h2{
+  margin-bottom: 29px;
+}
+
+.review_points{
+  display: flex;
+  width: $width_content;
+  justify-content: space-between;
+}
+
+.review_left, .review_right{
+  width: $width_cont;
+  display: flex;
+  flex-direction: column;
+}
+
+.review_left .review_expl:not(:last-child), .review_right .review_expl:not(:last-child){
+  margin-bottom: 22px;
+}
+
+.review_expl{
+  display: flex;
+  justify-content: space-between;
+}
+
+.review_expl img{
+  display: block;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background-color: $color_style;
+  padding: 2px 0 0 4px;
+}
+
+.review_expl article{
+  background: #EBEBEB;
+  border-radius: 5px;
+  width: 483px;
+  position: relative;
+  padding: 16px 10px 5px 15px;
+  p{
+    padding-bottom: 5px;
+  }
+}
+
+.review_expl article:before{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 38px;
+  border-top: 10px solid transparent;
+  border-right: 10px solid #EBEBEB;
+  border-bottom: 10px solid transparent;
+  left: -9px;
 }

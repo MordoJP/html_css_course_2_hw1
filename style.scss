@@ -18,5 +18,9 @@ li{
   list-style-type: none;
 }
 
+*:focus{
+  outline: none;
+}
+
 @import "header";
 @import "main";
