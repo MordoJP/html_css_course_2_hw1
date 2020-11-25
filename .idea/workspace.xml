@@ -10,7 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6f9fbd4-a62c-4728-a285-deb29a7024ec" name="Default Changelist" comment="added a header and main scss files, finished header and started main stylization">
+    <list default="true" id="d6f9fbd4-a62c-4728-a285-deb29a7024ec" name="Default Changelist" comment="finished a screnshots and review">
+      <change afterPath="$PROJECT_DIR$/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_main.scss" afterDir="false" />
@@ -62,7 +63,10 @@
       <updated>1606037348846</updated>
       <workItem from="1606037349993" duration="20842000" />
       <workItem from="1606137176702" duration="8000" />
-      <workItem from="1606157292633" duration="5661000" />
+      <workItem from="1606157292633" duration="6036000" />
+      <workItem from="1606317226254" duration="11077000" />
+      <workItem from="1606332518123" duration="171000" />
+      <workItem from="1606332731858" duration="3182000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1606037478737</created>
@@ -78,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606077376612</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished a screnshots and review">
+      <created>1606164075188</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606164075188</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,9 +113,14 @@
     <MESSAGE value="finished index.html" />
     <MESSAGE value="created style.scss" />
     <MESSAGE value="added a header and main scss files, finished header and started main stylization" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a header and main scss files, finished header and started main stylization" />
+    <MESSAGE value="finished a screnshots and review" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished a screnshots and review" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="309" y="47" key="#Inspections" timestamp="1606319347620">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="309" y="47" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1606319347620" />
     <state x="352" y="147" key="EditFileWatcherDialog" timestamp="1606061395837">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

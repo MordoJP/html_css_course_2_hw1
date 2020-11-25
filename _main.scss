@@ -1,22 +1,3 @@
-@mixin font_style($font_family: (Arial, Helvetica, sans-serif), $font_size: 16px, $font_weight: 400, $line-height: 24px, $text_color: #333333) {
-  font-family: $font_family;
-  font-size: $font_size;
-  font-weight: $font_weight;
-  line-height: $line-height;
-  color: $text_color;
-}
-
-@mixin image($img_width, $img_height, $img_color){
-  width: $img_width;
-  height: $img_height;
-  background-color: $img_color;
-}
-
-$width_content: 1172px;
-$color_style: #445161;
-$color_lighter: #F5F5F5;
-$width_cont: 576px;
-
 main{
   display: flex;
   flex-direction: column;
@@ -27,11 +8,11 @@ main{
 }
 
 main h2{
-  @include font_style((Arial, Helvetica, sans-serif), 30px, 400, 36px, #445161)
+  @include font_style((Arial, Helvetica, sans-serif), 30px, 400, 36px, $color_style)
 }
 
 .screenshots h4{
-  @include font_style((Arial, Helvetica, sans-serif), 24px, 400, 30px, #445161)
+  @include font_style((Arial, Helvetica, sans-serif), 24px, 400, 30px, $color_style)
 }
 
 .reviews p{
@@ -45,7 +26,7 @@ main h2{
 }
 
 .level{
-  @include font_style((Arial, Helvetica, sans-serif), 24px, 400, 30px, #FFFFFF);
+  @include font_style((Arial, Helvetica, sans-serif), 24px, 400, 30px, $color_v_light);
   background-color: $color_style;
 }
 
@@ -108,6 +89,7 @@ main h2{
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 33px;
+  margin-left: 50px;
 }
 
 details summary::-webkit-details-marker {
@@ -116,6 +98,7 @@ details summary::-webkit-details-marker {
 
 details > summary {
   list-style: none;
+  margin-left: -50px;
 }
 
 .pluses details summary:before {
@@ -123,7 +106,7 @@ details > summary {
   margin-right: 7px;
   padding: 0 10px;
   background-color: $color_style;
-  color: #FFFFFF;
+  color: $color_v_light;
   font-size: 36px;
 }
 
@@ -149,6 +132,11 @@ details > summary {
     margin-right: 14px;
     @include image(202px, 153px, $color_style);
   }
+}
+
+.scrn img:hover{
+  box-shadow: 0 3px 6px $hover_shadow;
+  transition: 0.5s;
 }
 
 .scrn_left, .scrn_right{
@@ -219,3 +207,58 @@ details > summary {
   border-bottom: 10px solid transparent;
   left: -9px;
 }
+
+.buy{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2{
+    margin-top: 45px;
+  }
+}
+
+.buy_points{
+  margin-top: 26px;
+  margin-bottom: 50px;
+  display: flex;
+  width: 990px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.buy_variant {
+  width: 300px;
+  background-color: $color_style;
+  border: 1px solid $color_style;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  ol{
+    @include font_style((Arial, Helvetica, sans-serif), 14px, 400, 24px, $color_v_light);
+    margin-top: 8px;
+  }
+}
+
+.buy_variant button{
+  border-radius: 5px;
+  background-color: $color_v_light;
+  @include font_style((Arial, Helvetica, sans-serif), 18px, bold, 18px, $color_style);
+  padding: 9px 112px;
+  margin-top: 16px;
+  margin-bottom: 19px;
+}
+
+.level{
+  margin: 13px 0 8px;
+}
+
+.price{
+  @include font_style((Arial, Helvetica, sans-serif), 40px, 400, 30px, $color_style);
+  padding-top: 25px;
+  padding-bottom: 16px;
+  align-self: stretch;
+  text-align: center;
+  background-color: $color_v_light;
+}
+
