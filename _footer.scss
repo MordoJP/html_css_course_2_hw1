@@ -1,0 +1,113 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact{
+  background-color: $color_style;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2{
+    @include font_style((Arial, Helvetica, sans-serif), 30px, 400, 36px, $color_v_light);
+    margin: 25px 0 43px;
+  }
+}
+
+.contact_info{
+  display: flex;
+  width: 758px;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 503px;
+  }
+}
+
+form input, form textarea{
+  border-radius: 5px;
+  padding: 12px 12px 7px;
+  @include font_style((Arial, Helvetica, sans-serif), 16px, 400, 24px, $color_style);
+  margin-bottom: 18px;
+  border: 0;
+  align-self: stretch;
+}
+
+form textarea{
+  height: 173px;
+}
+
+form button{
+  @include font_style((Arial, Helvetica, sans-serif), 16px, bold, 24px, $color_style);
+  border-radius: 5px;
+  padding: 12px 50px 7px;
+  background-color: $color_v_light;
+  text-transform: uppercase;
+  width: 153px;
+}
+
+.contact_icons{
+  display: flex;
+  flex-direction: column;
+}
+
+.icons_vertical{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 43px;
+}
+
+.icons_vertical a img{
+  margin-right: 20px;
+}
+
+.icons_vertical a{
+  @include font_style((Arial, Helvetica, sans-serif), 16px, 400, 24px, $color_v_light);
+}
+
+.icons_vertical a:not(:last-child){
+  margin-bottom: 18px;
+}
+
+.icons_vertical a:hover{
+  text-shadow: 0 3px 6px $hover_shadow;
+  transition: 0.5s;
+}
+
+.icons_horizontal{
+  display: flex;
+}
+
+.icons_horizontal a {
+  display: block;
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  background: $color_v_light;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+  border-radius: 24px;
+  margin: 0 10px 10px 0;
+  padding: 6px;
+  color: $color_style;
+}
+
+.twitter a:hover {background: #00acee; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.google-pluse a:hover {background: #DD4B39; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+
+.copyright{
+  @include font_style((Arial, Helvetica, sans-serif), 12px, 400, 24px, $color_style);
+  letter-spacing: 0.3px;
+  background-color: $color_lighter;
+  text-align: center;
+  padding: 12px 0 13px;
+  align-self: stretch;
+}

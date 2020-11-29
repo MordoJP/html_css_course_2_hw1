@@ -1,0 +1,65 @@
+$border: 1px solid black;
+$color_style: #445161;
+
+header{
+  background-color: $color_style;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_info{
+  margin: 25px 0 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 69px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header li{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+header li:before{
+  content: '✔';
+  position: absolute;
+  left: 0;
+  color: rgba(255, 255, 255, 1);
+}
+
+header a:last-child{
+  margin: 27px 51px 34px 0;
+  background-color: rgba(255, 255, 255, 1);
+  height: 214px;
+  width: 469px;
+}
+
+header a h1:hover{
+    text-shadow: 0 5px 10px $hover_shadow;
+    transition: 0.5s;
+}
+
+header a:last-child:hover{
+  box-shadow: 0 5px 10px $hover_shadow;
+  transition: 0.5s;
+}

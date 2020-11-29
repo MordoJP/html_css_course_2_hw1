@@ -1,0 +1,264 @@
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+.about span, .pluses li, .screenshots p{
+  @include font_style;
+}
+
+main h2{
+  @include font_style((Arial, Helvetica, sans-serif), 30px, 400, 36px, $color_style)
+}
+
+.screenshots h4{
+  @include font_style((Arial, Helvetica, sans-serif), 24px, 400, 30px, $color_style)
+}
+
+.reviews p{
+  @include font_style((Roboto, Helvetica, sans-serif), 14px, 400, 18px, #000000);
+  font-style: italic;
+}
+
+.reviews address{
+  @include font_style((Roboto, Helvetica, sans-serif), 14px, 400, 18px, #989898);
+  font-style: italic;
+}
+
+.level{
+  @include font_style((Arial, Helvetica, sans-serif), 24px, 400, 30px, $color_v_light);
+  background-color: $color_style;
+}
+
+.about{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about section{
+  margin: 45px 0 92px 50px;
+  width: 655px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.figure_video video{
+  margin: 45px 50px 50px 0;
+  width: 430px;
+  height: 245px;
+  background-color: $color_style;
+}
+
+.about h2{
+  margin-bottom: 6px;
+}
+
+.pluses section, .screenshots{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pluses section, .reviews{
+  background: $color_lighter;
+}
+
+.pluses h2{
+  margin-top: 25px;
+  align-self: center;
+}
+
+.pluses_points, .screenshots_expl{
+  width: $width_content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pluses ul{
+  width: $width_cont;
+}
+
+.pluses_points{
+  margin: 29px 0 15px;
+}
+
+.pluses_points li{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 33px;
+  margin-left: 50px;
+}
+
+details summary::-webkit-details-marker {
+  display: none
+}
+
+details > summary {
+  list-style: none;
+  margin-left: -50px;
+}
+
+.pluses details summary:before {
+  content: '+';
+  margin-right: 7px;
+  padding: 0 10px;
+  background-color: $color_style;
+  color: $color_v_light;
+  font-size: 36px;
+}
+
+.pluses details[open] summary:before {
+  content: '-';
+  padding: 0 15px;
+}
+
+.screenshots h2{
+  margin-top: 25px;
+}
+
+.screenshots_expl{
+  margin: 45px 0 24px;
+}
+
+.scrn {
+  width: $width_cont;
+  display: flex;
+  margin-bottom: 27px;
+  img{
+    display: block;
+    margin-right: 14px;
+    @include image(202px, 153px, $color_style);
+  }
+}
+
+.scrn img:hover{
+  box-shadow: 0 3px 6px $hover_shadow;
+  transition: 0.5s;
+}
+
+.scrn_left, .scrn_right{
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews{
+  padding: 25px 50px 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews h2{
+  margin-bottom: 29px;
+}
+
+.review_points{
+  display: flex;
+  width: $width_content;
+  justify-content: space-between;
+}
+
+.review_left, .review_right{
+  width: $width_cont;
+  display: flex;
+  flex-direction: column;
+}
+
+.review_left .review_expl:not(:last-child), .review_right .review_expl:not(:last-child){
+  margin-bottom: 22px;
+}
+
+.review_expl{
+  display: flex;
+  justify-content: space-between;
+}
+
+.review_expl img{
+  display: block;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background-color: $color_style;
+  padding: 2px 0 0 4px;
+}
+
+.review_expl article{
+  background: #EBEBEB;
+  border-radius: 5px;
+  width: 483px;
+  position: relative;
+  padding: 16px 10px 5px 15px;
+  p{
+    padding-bottom: 5px;
+  }
+}
+
+.review_expl article:before{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 38px;
+  border-top: 10px solid transparent;
+  border-right: 10px solid #EBEBEB;
+  border-bottom: 10px solid transparent;
+  left: -9px;
+}
+
+.buy{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2{
+    margin-top: 45px;
+  }
+}
+
+.buy_points{
+  margin-top: 26px;
+  margin-bottom: 50px;
+  display: flex;
+  width: 990px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.buy_variant {
+  width: 300px;
+  background-color: $color_style;
+  border: 1px solid $color_style;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  ol{
+    @include font_style((Arial, Helvetica, sans-serif), 14px, 400, 24px, $color_v_light);
+    margin-top: 8px;
+  }
+}
+
+.buy_variant button{
+  border-radius: 5px;
+  background-color: $color_v_light;
+  @include font_style((Arial, Helvetica, sans-serif), 18px, bold, 18px, $color_style);
+  padding: 9px 112px;
+  margin-top: 16px;
+  margin-bottom: 19px;
+}
+
+.level{
+  margin: 13px 0 8px;
+}
+
+.price{
+  @include font_style((Arial, Helvetica, sans-serif), 40px, 400, 30px, $color_style);
+  padding-top: 25px;
+  padding-bottom: 16px;
+  align-self: stretch;
+  text-align: center;
+  background-color: $color_v_light;
+}
+

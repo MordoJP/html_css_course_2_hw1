@@ -1,7 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d6f9fbd4-a62c-4728-a285-deb29a7024ec" name="Default Changelist" comment="finished a screnshots and review">
+      <change afterPath="$PROJECT_DIR$/_full_video.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/full_video_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kdjQoUsVkZOEJl6jD2bO1ncMgP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/Учеба" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6f9fbd4-a62c-4728-a285-deb29a7024ec" name="Default Changelist" comment="" />
+      <created>1606037348846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606037348846</updated>
+      <workItem from="1606037349993" duration="20842000" />
+      <workItem from="1606137176702" duration="8000" />
+      <workItem from="1606157292633" duration="6036000" />
+      <workItem from="1606317226254" duration="11077000" />
+      <workItem from="1606332518123" duration="171000" />
+      <workItem from="1606332731858" duration="3182000" />
+      <workItem from="1606400652035" duration="21000" />
+      <workItem from="1606562652829" duration="1255000" />
+      <workItem from="1606647911403" duration="9041000" />
+    </task>
+    <task id="LOCAL-00001" summary="my first commit">
+      <created>1606037478737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606037478737</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added a header and main scss files, finished header and started main stylization">
+      <created>1606077376612</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606077376612</updated>
+    </task>
+    <task id="LOCAL-00003" summary="finished a screnshots and review">
+      <created>1606164075188</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606164075188</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="my first commit" />
+    <MESSAGE value="finish index.html" />
+    <MESSAGE value="finished index.html" />
+    <MESSAGE value="created style.scss" />
+    <MESSAGE value="added a header and main scss files, finished header and started main stylization" />
+    <MESSAGE value="finished a screnshots and review" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished a screnshots and review" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="47" key="#Inspections" timestamp="1606562933382">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="309" y="47" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1606562933382" />
+    <state x="352" y="147" key="EditFileWatcherDialog" timestamp="1606061395837">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="352" y="147" key="EditFileWatcherDialog/0.0.1366.738@0.0.1366.738" timestamp="1606061395837" />
+    <state x="544" y="281" key="Github.Dialog.Accounts.Choose" timestamp="1606037572049">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="544" y="281" key="Github.Dialog.Accounts.Choose/0.0.1366.738@0.0.1366.738" timestamp="1606037572049" />
+    <state x="184" y="13" key="SettingsEditor" timestamp="1606061461503">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1606061461503" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1606336979259">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1606336979259" />
+    <state x="346" y="59" key="search.everywhere.popup" timestamp="1606076391917">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1606076391917" />
   </component>
 </project>
