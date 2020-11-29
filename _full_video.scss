@@ -1,0 +1,29 @@
+.content{
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  .con{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    @include font_style((Arial, Helvetica, sans-serif), 20px, 400, 15px, #5a3720);
+
+  }
+}
+
+.video{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  video{
+    min-height: 400px;
+    min-width: 700px;
+    width: 100%;
+    background-position: center;
+  }
+}

@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6f9fbd4-a62c-4728-a285-deb29a7024ec" name="Default Changelist" comment="finished a screnshots and review">
-      <change afterPath="$PROJECT_DIR$/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_full_video.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/full_video_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_main.scss" afterDir="false" />
@@ -67,6 +68,9 @@
       <workItem from="1606317226254" duration="11077000" />
       <workItem from="1606332518123" duration="171000" />
       <workItem from="1606332731858" duration="3182000" />
+      <workItem from="1606400652035" duration="21000" />
+      <workItem from="1606562652829" duration="1255000" />
+      <workItem from="1606647911403" duration="9041000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1606037478737</created>
@@ -117,10 +121,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="finished a screnshots and review" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="309" y="47" key="#Inspections" timestamp="1606319347620">
+    <state x="309" y="47" key="#Inspections" timestamp="1606562933382">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="309" y="47" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1606319347620" />
+    <state x="309" y="47" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1606562933382" />
     <state x="352" y="147" key="EditFileWatcherDialog" timestamp="1606061395837">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -133,10 +137,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1606061461503" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1606037562397">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1606336979259">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1606037562397" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1606336979259" />
     <state x="346" y="59" key="search.everywhere.popup" timestamp="1606076391917">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
